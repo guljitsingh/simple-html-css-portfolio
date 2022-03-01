@@ -5,3 +5,8 @@ This is a simple web page show casing some of my HTML + CSS skills I learned fro
 ## How to run
 
 Open the folder within Visual Studio Code and on "run without debugging". 
+
+
+## Demo
+
+ Portfolio: [ Link on Heroku](https://guljit-kaur-portfolio.herokuapp.com/).

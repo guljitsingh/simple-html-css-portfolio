@@ -1,37 +1,59 @@
-@media screen and (min-width: 480px) {
-	/********************
-	TWO COLUMN LAYOUT
-	********************/
-	#primary {
-		width: 50%;
-		float: left;
-	}
-	
-	#secondary {
-		width: 40%;
-		float: right;
-	}
-	
+#hamburger{
+	display:none;
+ }
 
-	
-	/********************
-	PAGE:PORTFOLIO
-	********************/
-	
-	.profile-photo {
-		float: left;
-		margin: 0 5% 80px 0;
+/* [ON SMALL SCREENS] */
+@media screen and (max-width: 768px){
+	ul {
+		padding: 5px;
+		list-style-type: none;
 	}
-	
-}
 
-@media screen and (min-width: 660px) {
-	
+
+	/* (A) BREAK INTO VERTICAL MENU */
+	#hamitems a {
+	  box-sizing: border-box;
+	  display: block;
+	  width: 100%;
+	  /* border-top: 1px solid #333; */
+	}
+   
+	/* (B) SHOW HAMBURGER ICON */
+	#hamnav label { 
+	  display: inline-block; 
+	  color: white;
+	  background: gray;
+	  font-style: normal;
+	  font-size: 1.2em;
+	  padding: 15px;
+	}
+  
+	/* (C) TOGGLE SHOW/HIDE MENU */
+	#hamitems { 
+		display: none; 
+	}
+	#hamnav input:checked ~ #hamitems { 
+		display: block; 
+	}
+  }
+
+@media screen and (min-width: 769px) {
+	 #hambuger-button{
+		display: none;
+	  }
+ 
 	/********************
 	HEADER
 	********************/
-	
+	/* nav {
+		text-align: center;
+		padding: 10px 0;
+		margin: 20px 0 0;
+	} */
 	nav {
+		text-align: center;
+		padding: 10px 0;
+		margin: 20px 0 0;
 		background: none;
 		float: right;
 		font-size: 1.125em;
@@ -39,7 +61,26 @@
 		text-align: right;
 		width: 45%;
 	}
-	
+	/********************
+	NAVIGATION
+	********************/
+
+
+
+	nav ul {
+		list-style: none;
+		margin: 0 10px;
+		padding: 0;
+	}
+
+	nav li {
+		display: inline-block;
+	}
+
+	nav a {
+		font-weight: 800;
+		padding: 15px 10px;
+	}
 	#logo {
 		float: left;
 		margin-left: 5%;

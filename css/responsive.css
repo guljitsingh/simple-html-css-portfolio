@@ -37,6 +37,14 @@
 	}
   }
 
+  #gallery li img {
+	float: left;
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
 @media screen and (min-width: 769px) {
 	 #hambuger-button{
 		display: none;
@@ -101,5 +109,13 @@
 		border-bottom: 5px solid #198C8C;
 		margin-bottom: 60px;
 	}
+
+	#gallery li img {
+		float: left;
+		width:  500px;
+		height: 500px;
+		object-fit: cover;
+	}
+	
 	
 }

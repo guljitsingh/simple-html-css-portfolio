@@ -196,14 +196,8 @@ PAGE:ART
 #gallery li p {
 	margin: 0;
 	padding: 5%;
-	font-size: 0.75em;
+	font-size: 1.5em;
 	color: #84888b;
 }
 
-#gallery li img {
-	float: left;
-    width:  200px;
-    height: 200px;
-    object-fit: cover;
-}
 

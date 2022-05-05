@@ -11,6 +11,11 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+.project-border {
+	border: 2px solid black;
+	padding-left: 7.5%;
+}
+
 #wrapper {
 	max-width: 940px;
 	margin: 0 auto;
